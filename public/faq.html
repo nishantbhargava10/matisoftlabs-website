@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matisoft Labs</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!--<link rel="icon" href="M">-->
+    <link rel="icon"  href="favicon.ico"  >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Web Fonts
+    ================================================== -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800%7CQuicksand:300,400,500,700" rel="stylesheet">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/settings.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/layers.css">
+    <link rel="stylesheet" type="text/css" href="revolution/css/navigation.css">
+    <link rel="stylesheet" href="font/font-awesome.min.css">
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/colors.css" />
+
+    <!-- IE
+    ================================================== -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+    .toggle-container h4::before{
+        display: none;
+
+    }
+    .toggle-container h4{
+        padding-left: 10px;
+    }
+
+    #mynavbar{
+        background-color: #262626;
+        filter: opacity(97%);
+        position: fixed;
+        z-index: 2;
+        width: 100%;
+        min-height: 108px;
+        top:0px;
+        transition: top 0.3s;
+        /*font-weight: 500;*/
+        font-family: "Quicksand", sans-serif;
+        /*border-bottom: solid 1px #ed1c24;*/
+
+    }
+
+    .navbar a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        font-size: 19px;
+        height: 100%;
+        min-height: 50px;
+        /*font-weight: 500;*/
+        font-family: "Quicksand",sans-serif;
+
+    }
+
+    .option{
+        padding-top: 3%;
+        font-family: "Quicksand", sans-serif;
+        /*font-weight: 500;*/
+        margin-left: 60%;
+
+    }
+    .option:hover {
+        /*background-color: #ed1c24;*/
+        color: #ed1c24;
+    }
+    .option:active{
+        color: #ed1c24;
+    }
+    #logo{
+        width: 27%;
+        padding: 1%;
+        height: 100%;
+    }
+    .navbar .icon {
+        display: none;
+
+    }
+    @media screen and (max-width: 800px) {
+        /*#logo{*/
+            /*width: 50%;*/
+        /*}*/
+        /*.option{*/
+            /*margin-left: 40%;*/
+        /*}*/
+    }
+    @media screen and (max-width: 1200px) {
+        #logo{
+            width: 300px;
+
+        }
+        .option{
+            margin-left: 50%;
+        }
+    }
+
+</style>
+
+
+</head>
+
+<body>
+
+<div id="boxed-layout" style="padding-top: 100px">
+        <div id="mynavbar" class="navbar">
+
+        <a id="logo" href="index.html">
+            <img src="logo1.png" width="100%" height="100%" >
+        </a>
+
+
+
+        <a href="index.html" class="option">Home </a><a class="option" href="#" style="padding-left: 0% ;color: #ed1c24;margin-left: 2%">  Faq</a>
+
+
+    </div>
+
+
+
+    <!-- Faq
+  ================================================== -->
+    <section class="wrapper-slashbg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <h3>FAQ</h3>
+                    <div class="titleline"> </div>
+                    <!-- end .titleline -->
+                    <!--<p>Our Most Frequently Asked Questions</p>-->
+
+                    <!-- end .alert alert-success -->
+                </div>
+                <!-- end .col-md-12 col-sm-12 -->
+            </div>
+            <!-- end .row -->
+            <div class="mb-20"> </div>
+            <!-- end .mb-20 -->
+
+            <div class="row">
+                <div class="col-md-9 col-sm-9">
+                    <div class="toggle-container">
+
+                        <h4 id="ref4"> <i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; How does Matisoft antivirus work?</h4>
+                        <div class="toggle-content">
+                            <p id="que4">Ethical hackers, virus researchers & Artificial Intelligence experts put their heads together & combined their experience & learning to develop this antivirus technology. These human expert’s brains are replicated in our software which continuously monitors the system to catch any virus that infects the computer.</p>
+                            <p>The main premise of our technology is to think like a human being. We have emulated the brains of human cyber security experts into our technology, thus it has the logic & thinking of a human expert’s brain & acts as if cyber security experts themselves are analysing & protecting the computer. This combination of human logic and the computational power of the computer provides fortified protection against all types of viruses without the need for any updates. Moreover the experience of ethical hackers & virus researchers helps us to pre-empt cyber-criminals techniques & catch them.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp;  Does Matisoft use signature detection technique to catch viruses?</h4>
+                        <div class="toggle-content">
+                            <p>Matisoft is one of the pioneer technologies that has got zero dependence on signature based virus detection.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4 id="ref6"><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp;  How often does Matisoft require updates?</h4>
+                        <div class="toggle-content">
+                            <p id="que6">Matisoft is one of the very few technologies in the world that do not depend on signature update technology. Its core engine runs with the help of Artificial Intelligence because of which Matisoft does not require regular updates.  Matisoft is updated like any other normal application, which might be around once in 30 days & still protects you from brand new & old viruses.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4 id="ref1"> <i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; How much money can I save using Matisoft versus a conventional antivirus?</h4>
+                        <div class="toggle-content">
+                            <p id="que1">Generally all conventional (i.e. signature based) antivirus software update their virus dictionary within an interval ranging from 6 hours to 24 hours. These signature files range in size from 100 MB to about 250MB. The average cost of internet data is around $ 0.26. per GB.(approx. 1,000 MB = 1 GB). Moreover the cost of saving on electricity charges due to low processor utilization is an added saver.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4 id="ref7"><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; How much resources does Matisoft use?</h4>
+                        <div class="toggle-content">
+                            <p id="que7">One of the main aim while designing the Matisoft algorithm was to keep resource utilization to the minimum. Though the resources utilised depends on the number & kind of applications running on the computer, however generally the memory utilisation ranges between 40 – 90 MB & CPU utilisation fluctuates between 0 – 15%. Due to this Matisoft antivirus can run smoothly on very old computers also, having around 500 MB of memory.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4 id="ref3"><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; How long will my laptop battery last if I install Matisoft compared to a conventional antivirus?</h4>
+                        <div class="toggle-content">
+                            <p id="que3">This depends on the number & kind of applications running on your computer, however generally you can expect a 20 - 33% improvement in your battery backup time.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4 id="ref2"><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What do I have to do after installing Matisoft Antivirus?</h4>
+                        <div class="toggle-content">
+                            <p id="que2">This is an install & forget antivirus technology. Once you have installed Matisoft you do not have to worry about anything & Matisoft is so less intrusive that you may even forget that you have installed an antivirus. The real time scanner of Matisoft will quietly work in the background & monitor the system. If any virus is found it will intimate you of the same & ask for permission to delete the virus, clean your system & disinfect infected files. Complete peace of mind!</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4 id="ref5"><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; Can Matisoft repair & disinfect all my files infected by a virus?</h4>
+                        <div class="toggle-content">
+                            <p>Yes Matisoft can repair & disinfect all the files infected by a virus which Matisoft has caught.Thus the precondition to this is that Matisoft antivirus must be installed on your system to get this level of protection.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+
+                        <!-- end .toggle-content -->
+                        <h4><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; How much time does it take Matisoft to repair an infected system?</h4>
+                        <div class="toggle-content">
+                            <p>Depending upon the complexity of the virus normally the repair time ranges between 1- 10 seconds.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4 ><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What is a computer virus?</h4>
+                        <div class="toggle-content">
+                            <p>A computer virus is a malicious program that is capable of copying itself and spreading to other computers. Viruses often spread to other computers by attaching themselves to various programs when a user launches one of those infected programs. The malicious activity may include anything that its writer intended it to do like steal information, harm host computers and networks, steal money, render advertisements etc.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <div id="link1point"></div>
+                        <h4 ><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What is a malware?</h4>
+                        <div class="toggle-content">
+                            <p>Malware is short for malicious software. Simply, malware is a software that has been written to harm a computer or any device it runs on.  It is an umbrella term used to refer to a variety of forms of malicious software, including <a href="#link1point" onclick="link1()" >computer viruses</a>,<a href="#link1point" onclick="link1()"> worms </a> ,<a href="#link1point" onclick="link1()"> Trojan horses</a>,<a href="#link1point" onclick="link1()"> ransomware</a>,<a href="#link1point" onclick="link1()"> spyware</a>,<a href="#link1point" onclick="link1()"> adware</a>,<a href="#link1point" onclick="link1()"> Botnets</a> and other malicious programs</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4 id="link1"><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What are the different types of malicious programs?</h4>
+                        <div class="toggle-content">
+                            <p><strong>• Viruses:</strong> Like their biological namesakes, viruses attach themselves to clean files and infect other clean files. They can spread uncontrollably, damaging a system’s core functionality and deleting or corrupting files.
+                            </p>
+                            <p><strong>•	Worms:</strong> Worms infect entire networks of devices, either local or across the internet, by using network interfaces. It uses each consecutive infected machine to infect more.</p>
+                            <p><strong>•	Trojans:</strong> This kind of malware disguises itself as legitimate software, or is included in legitimate software that has been tampered with. It tends to act discretely and create backdoors in the security system to allow entry to other malware.</p>
+                            <p><strong>•	Ransomware:</strong> Also called scareware, this kind of malware can lock down your computer and threaten to erase/encrypt everything — unless a ransom is paid to its owner.</p>
+                            <p><strong>•	Spyware: </strong>Spyware is a malware designed to spy on you. It hides in the background and takes notes on what you do online, including your passwords, credit card numbers, surfing habits and more.</p>
+                            <p><strong>•	Adware:</strong> These are not always malicious in nature, but some aggressive advertising software can undermine the security system just to show advertisements — which can give a lot of other malware a way in. Plus pop-ups themselves are very annoying.</p>
+                            <p><strong>•	Botnets:</strong> Botnets are networks of infected computers that are made to work together under the control of an attacker.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What is an antivirus?</h4>
+                        <div class="toggle-content">
+                            <p><strong>Antivirus</strong> or<strong> anti-virus software</strong>  (often abbreviated as AV), is a computer software used to prevent, detect and remove malicious software like <a href="#link1point" onclick="link1()" >computer viruses</a>,<a href="#link1point" onclick="link1()"> worms </a> ,<a href="#link1point" onclick="link1()"> Trojan horses</a>,<a href="#link1point" onclick="link1()"> ransomware</a>,<a href="#link1point" onclick="link1()"> spyware</a>,<a href="#link1point" onclick="link1()"> adware</a>,<a href="#link1point" onclick="link1()"> Botnets</a>.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <div id="link4point"></div>
+                        <h4 ><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; How does a conventional antivirus work?</h4>
+                        <div class="toggle-content">
+                            <p >Almost all antivirus software work on a <a href="#link2point" onclick="link2()">signature/dictionary based detection</a> method (Matisoft is one of the few technologies in the world which does not use signature based detection technique at all).Advanced antivirus programs today claim to work by employing other advanced technologies also like <a href="#link3point" onclick="link3()">heuristic-based detection</a>, <a href="#link4point" onclick="link4()">behavioral-based detection</a> and <a href="#link5point" onclick="link5()"> cloud-based detection</a> to analyze suspicious program files. However due to the limitations presented by each of these supplementary technologies, dependence on these remains very minimal. Antivirus software claim to use various technologies to catch viruses, but the main method around which all of these work is virus signature/dictionary based detection. </p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <div id="link5point"></div>
+                        <h4 id="link4"><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What is behavioural based virus detection?</h4>
+                        <div class="toggle-content">
+                            <p><strong>Behavioural </strong>detection observes how the program executes & compares it to previously observed malware behaviour. Example of suspicious behaviour are unpacking of malicious code, modifying files or observing keystrokes. Although this technique can detect unknown and encrypted malware, they suffer a serious problem of false positives against benign programs.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+
+                        <div id="link3point"></div>
+                        <h4 id="link5"><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What is cloud based virus detection?</h4>
+                        <div class="toggle-content">
+                            <p>Cloud-based detection identifies malware by collecting data from the user’s machine while analysing it on the company’s server, instead of performing the analysis locally. This is usually done by capturing the relevant details about the file from the user’s machine, and sending it to the cloud engine for analyses. Thus the antivirus agent on the user’s machine only needs to perform minimal work.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <div id="referencepoint"></div>
+                        <div id="link2point"></div>
+                        <h4 id="link3"><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What is heuristics-based virus detection?</h4>
+                        <div class="toggle-content">
+                            <p>Heuristics is an approximation method that tries to find the closest possible answer to a definite answer. Heuristic scanners work by detecting virus-like characteristics or virus-like behaviour. This method is mostly used to detect new malware by examining files for suspicious characteristics that may hint towards a malware. For instance, an antivirus tool might look for the presence of rare instructions or junk code in the examined file. The tool might also emulate running the file, to flag off any suspected behaviour. The biggest problem of heuristics is the high rate of false positives which means that it can inadvertently flag legitimate files as malicious.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4 id="reference"><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What is a signature based antivirus?</h4>
+                        <div  class="toggle-content">
+                            <p>In signature/dictionary based detection method, an antivirus manages a data/dictionary file which is filled with virus signatures.Whenever a new virus is discovered by an antivirus company it is analysed by their employees(who are called virus researchers) to find a unique line(i.e. a virus signature) with which the file can be uniquely identified. Once this virus signature is identified, then this is updated on to the company’s servers. Now this new signature has to be downloaded by the client/your computer to include this new virus signature into your antivirus database. After this new signature is updated on your antivirus, your antivirus can catch this new virus by checking for this new line/virus signature in the files on your computer.</p>
+                            <p>This method of detecting virus has been an essential aspect of antivirus tools since their inception & it remains an important part of most tools to date. A major limitation of the method is that, by itself, it is unable to flag malicious files for which signatures have not yet been developed. With this in mind, modern attackers frequently mutate their creations to retain malicious functionality by changing the file’s signature</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What is a virus signature?</h4>
+                        <div class="toggle-content">
+                            <p >A virus signature may be thought of as alphabets that are unique to a specific file. E.g. A file containing the line “I am a virus & I will infect your computer” can be selected as a unique line to identify this particular file from thousands of files. Thus this line becomes distinguishing factor(signature) to identify this file out of thousands of files.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; How does a conventional antivirus scan for a viruses?</h4>
+                        <div class="toggle-content">
+                            <p>There are 2 techniques used by antivirus software to scan & catch viruses, which are on-access scan & on-demand scan.</p>
+                            <p><strong>On-access</strong>  scanning/Real time scanning: In this technique the antivirus software runs in the background  & automatically checks all the files/apps that you open on your computer. It gives real time protection as all files/apps are checked just after they are clicked & before they are opened. This scanning technique has the advantage of catching the virus before it is opened & causes any harm to the computer/device. Moreover it relieves the user of any manual/On-Demand scans. Matisoft uses real time scanning.</p>
+                            <p><strong>On-Demand</strong> scanning: This antivirus technique scans the files on your computer hard drive for viruses only when prompted to do so by the computer user, or by scheduling it as a time-specific task(& thus it got the name “On-demand scanners”). Though this technique may discover dormant viruses on the hard disk(which may also be caught when they are opened by the computer user using On-access scanning), but due to the resources & time utilized by this technique it is becoming less popular with antivirus software.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; Why does my antivirus needs to be updated regularly?</h4>
+                        <div class="toggle-content">
+                            <p>All antivirus software that use signature/dictionary based virus detection technique needs to be updated regularly to catch new viruses because this is the basic requirement of this technology to work.
+                            To understand signature based technology <a href="#referencepoint" style="color: #1d78cb" onclick="que1()" >click here</a>
+                            </p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; How often is my antivirus software updated?</h4>
+                        <div class="toggle-content">
+                            <p>Generally all antivirus software are updated at least daily to catch new viruses. However there is no fixed rule, every company has its own policies, some companies update only once a day to keep the data usage of the customer minimum & at the same time lower the burden on their servers. Other companies might choose to send updates every 6-8 hours. This will increase internet usage of the consumer but at the same time the antivirus will be prepared sooner to catch brand new viruses.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; Which part of my antivirus software is updated regularly?</h4>
+                        <div class="toggle-content">
+                            <p>Antivirus software update their virus dictionary/virus definition file, regularly to catch new viruses.</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; What is the size of an antivirus virus dictionary/virus definition file?</h4>
+                        <div class="toggle-content">
+                            <p>Size of antivirus virus dictionary/virus definition files normally ranges between 100 Mb to about 250 Mb. These are normally compressed for download & also digitally signed for security reasons.The size of the file depends on various factors like structure of the definition file, the number of signatures in the file, the antivirus company’s policy if it wants to catch more number of viruses on the user’s computer(which means bigger virus definition files) versus the company wants their antivirus to use less resources & be more light on the client’s computer(which means smaller virus definition files)</p>
+                        </div>
+                        <!-- end .toggle-content -->
+                        <h4><i style="font-size:16px;color: #ed1c24" class="fa">&#xf067;</i>&nbsp;&nbsp;&nbsp; How do I know if my antivirus uses signature/dictionary based technology?</h4>
+                        <div class="toggle-content">
+                            <p>Today almost all antivirus available in the consumer market are signature based technology for catching viruses. Moreover if your antivirus was not signature based then the antivirus company would have made it a point that you know of this advantage. We at Matisoft are the first antivirus technology in the world for the consumer market to be completely free of signature based technology for catching viruses.</p>
+                        </div>
+                    </div>
+
+                    <!-- end .toggle-container -->
+
+                </div>
+                <!-- end .col-md-9 col-sm-9 -->
+
+            </div>
+            <!-- end .row -->
+        </div>
+    </section>
+
+    <!-- end .container -->
+
+    <!-- end .mb-100 -->
+
+
+
+    <!-- Copyright
+  ================================================== -->
+    <div id="copyright" >
+        <div class="container">
+            <div class="row" >
+                <div class="col-md-6 col-sm-6" >
+                    <div class="copyright" style="color: #fff;"> &copy; 2017 Matisoft Cyber Security Labs Pvt. Ltd.<br> All Rights Reserved. </div>
+                    <!-- end .copyright -->
+                </div>
+                <!-- end .col-md-6 col-sm-6 -->
+
+                <div class="col-md-6 col-sm-6">
+                    <ul class="copyright-link">
+                        <li><a style="color: black" href="#">TOP<span class="glyphicon">&#xe093;</span></a></li>
+
+                    </ul>
+                </div>
+                <!-- end .col-md-6 col-sm-6 -->
+
+            </div>
+            <!-- end .row -->
+        </div>
+        <!-- end .container -->
+    </div>
+    <!-- end #copyright -->
+
+<!-- end #boxed-layout -->
+
+<!-- Java Script
+================================================== -->
+    <script src="faq.js"></script>
+    <script src="mc.js"></script>
+<script src="js/jquery.min.js"></script>
+    <script src="mc.js"></script>
+<script src="js/jquery-migrate.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.tools.min.js"></script>
+<script type="text/javascript" src="revolution/js/jquery.themepunch.revolution.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/custom.js"></script>
+
+</div>
+</body>
+
+
+</html>

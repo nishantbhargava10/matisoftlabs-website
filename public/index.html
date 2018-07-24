@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Matisoft Labs</title>
+    <link rel="icon"  href="favicon.ico"  >
+
+    <link rel="stylesheet" type="text/css" href="mcstylesheet.css">
+    <!--<link rel="stylesheet" href="font/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800%7CQuicksand:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+<body onload="load()">
+
+
+
+
+
+
+
+<div id="mailOverlay" class="mail-overlay">
+    <span class="closebtn" onclick="closemail()" title="Close ">×</span>
+    <div class="overlay-mail-content">
+        <form action="mc2.php" method="post">
+            <div class="input-container">
+
+                <!--<i class="fa fa-envelope fa-user icon" style="font-size:40px;color: white;background-color: #1d78cb"></i>-->
+                <!--<i style="font-size:40px;color: #1d78cb" class="fa">&#xf2bd;</i>-->
+                <!--<i style="font-size:20px;color: white;background-color: dodgerblue;padding-top: 5px" class="fa nameicon">&#xf2bb;</i>-->
+                <i style="font-size:20px; background-color: whitesmoke;padding: 8px ;padding-top: 14px;color: #ed1c24" class="fa" >&#xf2bb;</i>
+                <input class="input-field" type="text" placeholder="Name" name="name" required >
+
+            </div>
+            <div class="input-container">
+
+                <!--<i class="fa fa-envelope icon-mail" style="width: 55px"></i>-->
+                <i class="material-icons" style="background-color: whitesmoke;size: 24px;padding: 8px ;padding-top: 12px;color: #ed1c24">&#xe158;</i>
+                <input class="input-field" type="text" placeholder="Email" name="emails" required>
+
+            </div>
+
+            <input type="submit" class="btn" value="SUBMIT" style="width: 30%">
+            <!--<button type="submit" class="btn">Register</button>-->
+        </form>
+    </div>
+
+</div>
+<div id="mynavbar" class="navbar">
+
+    <a id="logo" href="#home">
+        <img src="logo1.png" width="100%" height="100%" >
+    </a>
+
+    <a id="email">
+        <button class="openBtn animated pulse infinite" onclick="openmail()">Email me when you launch</button>
+    </a>
+    <a href="#parta" class="option" onclick="myFunction()" >Why Matisoft</a>
+    <a href="#partb" class="option" onclick="myFunction()">About Matisoft</a>
+    <a href="faq.html" class="option" onclick="myFunction()">Faq</a>
+    <a href="#partd" class="option" onclick="myFunction()"> Contact us</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="material-icons">&#xe241;</i></a>
+</div>
+
+<div class="slideshow-container-home" id="home">
+
+
+    <video class="video-home"  controls src="matibanner.mp4" type="video/mp4"  width="100%" height="100%" autoplay="true"  loop></video>
+
+
+</div>
+
+
+
+<div id="parta">
+    <div id="head-a" >
+        How does Matisoft antivirus benefit you
+    </div>
+
+<!--<div style="text-align: center ; font-family: 'Quicksand', sans-serif;color: #ed1c24;margin-top: 2%;margin-bottom: 0%;font-size: x-large "> (hover over images)</div>-->
+
+<div class="icons-A">
+    <div><div class="bar-a"><div class="subbar-a"></div></div><img src="img1.png" class="img-A"  ><h3 style="color: lawngreen;margin: 0%"> Saves money on internet usage
+    </h3><p  style="color: green;margin-top: 13px ;font-size: medium;margin-bottom: 50%">On internet usage as our technology does not require daily updates <a href="faq.html"  target="_blank" style="color: #ed1c24" onclick="linka1()">read more...</a></p></div>
+
+
+
+    <div><div class="bar-a"><div class="subbar-a"></div></div><img src="img3(a).png" class="img-A"  ><h3 style="color: #1d78cb;margin: 0%"> Install & Forget as everything is automatic</h3><p  style="color: #017fb1;margin-top: 13px ;font-size: medium;margin-bottom: 20%"> Everything is automatically handled as there is no need for manual scans & regular updates. <a href="faq.html"  target="_blank" style="color: #ed1c24"onclick="linka2()">read more...</a></p></div>
+
+
+    <div><div class="bar-a"><div class="subbar-a"></div></div><img src="img7.png" class="img-A" ><h3 style="color: #ffcc00;margin: 0%"> Laptop battery lasts longer
+    </h3><p  style="color: #ffcc33;margin-top: 13px ;font-size: medium;margin-bottom: 30%"> because of our technology’s low resource utilisation your battery will last much longer compared to a conventional antivirus.<a href="faq.html"  target="_blank" style="color: #ed1c24" onclick="linka3()">read more...</a></p></div>
+
+
+    <div><div class="bar-a"><div class="subbar-a"></div></div><img src="img2.png" class="img-A"  ><h3 style="color: blue;margin: 0%"> Catches brand new viruses without any updates
+    </h3><p  style="color: blue;margin-top: 13px ;font-size: medium;margin-bottom: 50%">because of Artificial Intelligence our engine can catch brand new viruses without any updates <a href="faq.html"  target="_blank" style="color: #ed1c24" onclick="linka4()">read more...</a></p></div>
+
+    <div><div class="bar-a"><div class="subbar-a"></div></div><img src="img4.png" class="img-A" ><h3 style="color: purple;margin: 0%"> Do not loose any file to a virus attack</h3><p  style="color: rebeccapurple;margin-top: 13px ;font-size: medium;margin-bottom: 50%"> Do not loose any file/data to a virus attack with the help of our disinfect & recovery engine.<a href="faq.html"  target="_blank" style="color: #ed1c24" onclick="linka5()">read more...</a></p></div>
+
+    <div><div class="bar-a"><div class="subbar-a"></div></div><img src="img5.png" class="img-A" ><h3 style="color: deepskyblue;margin: 0%"> No daily updates required
+    </h3><p  style="color: deepskyblue;margin-top: 13px ;font-size: medium;margin-bottom: 25%"> Our artificial intelligence based technology will be updated like any other normal application which might be around once in 30 days & still protect you from brand new & old viruses.<a href="faq.html"  target="_blank" style="color: #ed1c24" onclick="linka6()">read more...</a></p></div>
+
+    <div><div class="bar-a"><div class="subbar-a"></div></div><img src="img6(a).png" class="img-A"><h3 style="color: black;margin: 0%">Extremely fast on your computer
+    </h3><p  style="color: darkslategrey;margin-top: 13px ;font-size: medium;margin-bottom: 30%">Experience your computer with speed & smoothness like never before. Our technology even works smoothly on old computers with less than 500 MB memory.<a href="faq.html"  target="_blank" style="color: #ed1c24" onclick="linka7()">read more...</a></p></div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+<!--<div id="mid-bar1" ></div>-->
+<div id="partb">
+<div class="about" >
+
+    <div style="background-image: url('about.png');background-repeat: no-repeat;background-position: center;background-size: contain;width: 100%;height: 100%">
+        <h1 style="align-content: center;text-align: center;font-family: 'muli',sans-serif;color: white;font-weight: normal">About Matisoft</h1>
+    <!--<div id="bar-b" ><div></div></div>-->
+        <div class="para-about" >
+              One of the most advanced Artificial Intelligence based cyber antivirus technology developed from the combined experience of ethical hackers, virus researchers & Artificial Intelligence experts. Having hands on experience of cyber security for more than 15 years we realised that there were big unsolved problems in this industry which were unknown to the users. We wanted to solve all of these problems of the conventional signature based antivirus which are,
+            <br><br><i style="font-size:24px" class="fa">&#xf2da;</i>  Cannot catch new viruses
+            <br><br><i style="font-size:24px" class="fa">&#xf2da;</i>  Daily updates required to catch viruses
+            <br><br><i style="font-size:24px" class="fa">&#xf2da;</i>  Huge resource utilization which slows down the computer
+            <br><br><i style="font-size:24px" class="fa">&#xf2da;</i>  False positives i.e. catching legitimate files as viruses
+            <br><br><i style="font-size:24px" class="fa">&#xf2da;</i>  Loosing files & data to virus attacks
+            <br><br>  We knew that we had an uphill task to solve the above problems which even the industry believed to be impossible. It was this disbelief which fuelled our passion & conviction even further to achieve our goal. After 7 years of gruelling hard work, our perseverance finally paid off & we succeeded to take out a solution which was earlier considered impossible. This solution makes our software think like a human cyber security expert. We have emulated the brains of ethical hackers, virus researchers & Artificial Intelligence experts into our technology, thus our antivirus software has the logic & thinking of a human expert combined with the computational power of the computer which provides paramount protection against all types of viruses.
+
+        </div>
+    </div>
+    <!--<div id="bar-b2"><div></div></div>-->
+</div>
+
+</div>
+
+<div id="partd">
+
+    <div class="contact">
+        <h1 style="color: #ed1c24; font-family: 'Quicksand',sans-serif">Contact us:</h1>
+        <form action="mc.php" method="post">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your first name.." required>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+            <label for="email-contact">Email</label>
+            <input id="email-contact" type="email" name="email" placeholder="Enter your email here... " required>
+
+            <label for="subject">Message</label>
+            <textarea id="subject" name="subject" placeholder="Maximum 2,500 characters including spaces" style="height:200px" required></textarea>
+
+
+            <input type="submit"  placeholder="SUBMIT"  value="SUBMIT" >
+            </form>
+
+        <!--<button id="myBtn-d" onclick="submit()">SUBMIT</button>-->
+
+        <!--<button id="myBtn-d">Open Modal</button>-->
+
+        <!-- The Modal -->
+        <div id="myModal-d" class="modal-d">
+
+            <!-- Modal content -->
+            <!--<span style="float: right"> X</span>-->
+            <div class="modal-content-d">
+                <!--<div class="modal-header-d">-->
+                    <span  class="close-d" style="margin-right: 2%">&times;</span>
+                    <!--<h2>Kind Notice</h2>-->
+                <!--</div>-->
+                <div class="modal-body-d" style="padding-left:15%;color: red;background-color: rgb(0,0,0.5)">
+                    <p>Thank You for trying to reach us.</p>
+                    <p>This service will be available very soon.</p>
+                </div>
+                <!--<div class="modal-footer-d">-->
+                    <!--<h3>Matisoft Cyber Security Labs</h3>-->
+                <!--</div>-->
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+
+<div id="foot" >
+<div  id="foot-div" >
+    &nbsp;&copy; 2017 Matisoft Cyber Security Labs Pvt. Ltd.<br>&nbsp;All Rights Reserved.
+</div>
+</div>
+<script src="mc.js"></script>
+<!--<script src="contact.js"></script>-->
+
+</body>
+</html>

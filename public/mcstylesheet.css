@@ -1,0 +1,609 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    background-color: #262626;
+    margin: 0;
+}
+
+#mid-bar1{
+    background-color: #8a8a7c;
+    min-width: 100%;
+    color: white;
+    min-height: 100px;
+    text-align: center;
+    font-size: xx-large;
+    padding: 50px;
+
+}
+.nameicon{
+    width: 75px;
+
+}
+
+
+#mynavbar{
+    background-color: #262626;
+    filter: opacity(97%);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    min-height: 100px;
+    top:0px;
+    transition: top 0.3s;
+    /*border-bottom: solid 1px #ed1c24;*/
+
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    height: 100%;
+    min-height: 50px;
+    font-family: "Quicksand",sans-serif;
+    /*width: 10%;*/
+    margin-right: 25px;
+}
+
+#email{
+    width: 25%;
+    height: 100%;
+    color: black;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 2%;
+}
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.icon-mail {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+}
+
+.input-field:focus {
+    border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+.openBtn {
+    background: #262626;
+    color: #ed1c24;
+    border: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4%;
+}
+
+.openBtn:hover {
+    background: #ed1c24;
+    color: white;
+}
+
+.mail-overlay {
+    height: 100%;
+    width: 100%;
+    display: none;
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+}
+
+.overlay-mail-content {
+    position: relative;
+    top: 46%;
+    width: 80%;
+    text-align: center;
+    margin-top: 30px;
+    margin: auto;
+}
+
+.mail-overlay .closebtn {
+    position: absolute;
+    top: 100px;
+    right: 45px;
+    font-size: 60px;
+    cursor: pointer;
+    color: white;
+}
+
+.mail-overlay .closebtn:hover {
+    color: #ccc;
+}
+
+.mail-overlay input[type=text] {
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    float: left;
+    width: 100%;
+    background: white;
+}
+
+.mail-overlay input[type=text]:hover {
+    background: #f1f1f1;
+}
+
+.mail-overlay button {
+    float: left;
+    width: 20%;
+    padding: 15px;
+    background: #8a8a7c;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.mail-overlay button:hover {
+    background: #bbb;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+.option{
+    padding-top: 3%;
+    font-family: s;
+
+}
+.option:hover {
+    /*background-color: #ed1c24;*/
+    color: #ed1c24;
+}
+.option:active{
+    color: #ed1c24;
+}
+#logo{
+    width: 25%;
+    padding: 1%;
+    height: 100%;
+}
+.navbar .icon {
+    display: none;
+
+}
+
+#home{
+    min-height: 450px;
+    width: 100%;
+        margin-top: 100px;
+    background-color: #262626;
+}
+
+#parta{
+    min-height: 900px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: white;
+    /*font-family: "Quicksand", sans-serif;*/
+}
+#head-a{
+    text-align: center;
+    font-size: 50px ;
+    color: white;
+    border-bottom: solid 1px;
+    background-color: #ed1c24;
+    padding-top: 40px ;
+    font-family:'Segoe UI Light'
+}
+
+
+.icons-A{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 40px;
+    justify-content: center;
+}
+.icons-A > div{
+    height: 450px;
+    width: 250px;
+    margin: 3%;
+    text-align: center;
+    background-color: white;
+}
+.img-A{
+    width: 90%;
+    height: 50%;
+}
+.img-A:hover{
+    animation: rubberBand;
+    animation-duration: 1s;
+
+
+}
+.bar-A{
+    width: 100%;
+    height: 10px;
+    background-color: #ed1c24;
+}
+
+.bar-a{
+    height: 5px;
+    margin: 20px 0px;
+    width: 100%;
+    background-color: #8a8a7c;
+}
+.subbar-a{
+    height: 5px;
+    background-color: darkgray;
+    width: 80%;
+}
+
+
+
+#partb{
+    /*min-height: 1000px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-image: url("about.png");*/
+    /*-o-background-image: url("about.png");*/
+    /*-moz-background-image: url("about.png");*/
+    /*background-attachment: fixed;*/
+    /*background-position: center;*/
+
+    /*background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-webkit-background-size: cover;*/
+}
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+.about{
+    /*padding-top: 12%;*/
+    /*margin-left: 10%;*/
+    /*min-height: 700px;*/
+    padding-bottom: 20px;
+    padding-top: 3%;
+
+    background: linear-gradient(-45deg, #ed1c24, #ed1c24, #8a8a7c, #262626);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 8s ease infinite;
+    -moz-animation: Gradient 8s ease infinite;
+    animation: Gradient 8s ease infinite;
+    /*perspective: 100px;*/
+}
+#bar-b{
+    height: 10px;width: 80%;background-color: lightcoral;
+    margin-left: 10%;
+}
+#bar-b div{
+    height: 5px;width: 70%;background-color: #ed1c24;
+}
+#bar-b2{
+    margin-left: 10%;
+    height: 10px;width: 80%;background-color: lightcoral;
+}
+#bar-b2 div{
+    height: 5px;width: 100%;background-color: #ed1c24
+}
+
+.para-about{
+    padding: 5% 10%;
+    font-size: large;
+    color: white;
+    font-family: 'quicksand',sans-serif;
+    /*background-color: rgba(0,0,0, 0.3);*/
+}
+
+
+#partd{
+    min-height: 900px;
+    margin-top: 0px;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    /*filter: blur(2px);*/
+    background-repeat: no-repeat;
+    background-image: url("contact.jpg");
+    -o-background-image: url("contact.jpg");
+    -moz-background-image: url("contact.jpg");
+    /*filter: blur(3px);*/
+}
+.contact{
+    padding-top: 5%;
+    margin-right: 50%;
+    margin-left: 10%;
+    color: #f1f1f1;
+}
+
+.contact input[type=text],[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #ed1c24;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+#myBtn-d{
+    background-color: #ed1c24;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+/* The Modal (background) */
+.modal-d {
+    font-family: "Quicksand", sans-serif;
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content-d {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 31%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop-d {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop-d {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close-d {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close-d:hover,
+.close-d:focus {
+    color: #ed1c24;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header-d {
+    padding: 2px 16px;
+    background-color: #ed1c24;
+    text-align: center;
+    color: white;
+}
+
+.modal-body-d {padding: 2px 16px;
+background-color: #8a8a7c
+;
+color: whitesmoke}
+
+.modal-footer-d {
+    padding: 2px 5px;
+    text-align: center;
+    background-color: #ed1c24;
+    color: white;
+}
+
+#foot{
+    height: 94px;
+    background-color: #ed1c24;
+background-color: #ed1c24;
+    color: #f1f1f1;
+    padding-left:100px
+}
+#foot-div{
+    width: 100%; text-align: left;font-size: 14px;font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    padding-top: 25px;
+    line-height: 22px;
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    .navbar a:not(:first-child) {
+        display: none;
+
+    }
+    #logo{
+        width: 300px;
+        height: 60px;
+    }
+
+    #foot{
+        padding-left: 0px;
+
+    }
+    #foot > div{
+        text-align: center;
+    }
+
+    .option{
+        background-color: #ed1c24;
+        width: 100%;
+        border-bottom: solid 1px #8a8a7c;
+        color: white;
+    }
+    .option:hover{
+        background-color: #262626;
+
+    }
+    .navbar #email{
+        /*display: block;*/
+        width: 70%;
+        height: 70%;
+    }
+
+    .navbar a.icon {
+        float: right;
+        display: block;
+        /*margin-right: 10%;*/
+        margin-top: 4%;
+    }
+
+    .navbar.responsive a.icon {
+        /*position: absolute;*/
+        /*right: 8%;*/
+        /*top: 10%;*/
+        float: right;
+        text-align: right;
+    }
+
+    .navbar.responsive a {
+        float: none;
+        display: block;
+        min-height: 15px;
+        width: 100%;
+
+    }
+    .video-home{
+        margin-top: 30%;
+    }
+    .navbar.responsive #email{
+      display: block;
+
+    }
+    .icons-A > div >image{
+        height: 50%;
+    }
+    .img-A{
+        height: 40%;
+        width: 80%;
+    }
+    .icons-A{
+        margin: 10px;
+    }
+    .flex-container-A{
+        margin: 10px;
+    }
+
+    .para-about{
+        font-size: small;
+    }
+    .modal-content-d{
+        width: 80%;
+    }
+    #foot{
+
+        padding: 30px;
+    }
+}
+@media screen and (max-width: 1270px){
+    /*#logo{*/
+        /*width: 20%;*/
+
+    /*}*/
+    #email{
+        display: block;
+        width: 70%;
+
+    }
+    /*#email{*/
+        /*width: 15%;*/
+        /*font-size: x-small;*/
+    /*}*/
+    .nameicon{
+        width: 84px;
+    }
+}
+@media screen and (max-width: 1050px){
+
+    #head-a{
+        font-size: xx-large;
+    }
+    .contact{
+        margin-right: 20%;
+    }
+
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+<form action="mc.php" method="post">
+
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+        <label for="email-contact">Email</label>
+        <input id="email-contact" type="email" name="email" placeholder="Enter your email here... " >
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit">
+    Welcome <?php echo $_POST["firstname"]; ?><br>
+    Your email address is: <?php echo $_POST["email"]; ?>
+
+
+
+</form>
+</body>
+</html>
