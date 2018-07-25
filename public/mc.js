@@ -48,24 +48,73 @@ function load() {
 }
 function linka1() {
     localStorage.setItem("a1", "1");
+    // localStorage.setItem("a1", "0");
+    localStorage.setItem("a2", "0");
+    localStorage.setItem("a3", "0");
+    localStorage.setItem("a4", "0");
+    localStorage.setItem("a5", "0");
+    localStorage.setItem("a6", "0");
+    localStorage.setItem("a7", "0");
 }
 function linka2() {
     localStorage.setItem("a2", "1");
+    localStorage.setItem("a1", "0");
+    // localStorage.setItem("a2", "0");
+    localStorage.setItem("a3", "0");
+    localStorage.setItem("a4", "0");
+    localStorage.setItem("a5", "0");
+    localStorage.setItem("a6", "0");
+    localStorage.setItem("a7", "0");
 }
 function linka3() {
     localStorage.setItem("a3", "1");
+    localStorage.setItem("a1", "0");
+    localStorage.setItem("a2", "0");
+    // localStorage.setItem("a3", "0");
+    localStorage.setItem("a4", "0");
+    localStorage.setItem("a5", "0");
+    localStorage.setItem("a6", "0");
+    localStorage.setItem("a7", "0");
 }
 function linka4() {
     localStorage.setItem("a4", "1");
+    localStorage.setItem("a1", "0");
+    localStorage.setItem("a2", "0");
+    localStorage.setItem("a3", "0");
+    // localStorage.setItem("a4", "0");
+    localStorage.setItem("a5", "0");
+    localStorage.setItem("a6", "0");
+    localStorage.setItem("a7", "0");
 }
 function linka5() {
     localStorage.setItem("a5", "1");
+    localStorage.setItem("a1", "0");
+    localStorage.setItem("a2", "0");
+    localStorage.setItem("a3", "0");
+    localStorage.setItem("a4", "0");
+    // localStorage.setItem("a5", "0");
+    localStorage.setItem("a6", "0");
+    localStorage.setItem("a7", "0");
 }
 function linka6() {
     localStorage.setItem("a6", "1");
+    localStorage.setItem("a1", "0");
+    localStorage.setItem("a2", "0");
+    localStorage.setItem("a3", "0");
+    localStorage.setItem("a4", "0");
+    localStorage.setItem("a5", "0");
+    // localStorage.setItem("a6", "0");
+    localStorage.setItem("a7", "0");
 }
 function linka7() {
     localStorage.setItem("a7", "1");
+    localStorage.setItem("a1", "0");
+    localStorage.setItem("a2", "0");
+    localStorage.setItem("a3", "0");
+    localStorage.setItem("a4", "0");
+    localStorage.setItem("a5", "0");
+    localStorage.setItem("a6", "0");
+    // localStorage.setItem("a7", "0");
 }
 
 
